@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mining Page */
+.mining-page-data h2 {
+  color: #5483e1;
+  font-size: small;
+}
+
+.vl {
+  border-left: 2px solid rgb(113, 113, 113);
+  margin-right: 15px;
+  height: 80px;
+}
+
+.spiralbg {
+  background-image: url("../assets/HomeSpiral.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.bgsvg{
+  background-image: url("../assets/HeroBg.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
